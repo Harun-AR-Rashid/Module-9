@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px;
+        }
+
+        .box {
+            background-color: slategrey;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .container-box {
+            margin-top: 20px;
+            display: flex;
+            /* display: grid; */
+            gap: 10px;
+            flex-wrap: wrap;
+
+        }
+
+        .box-content {
+            /* width: 300px;
+            height: 200px; */
+            background-color: hotpink;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        @media screen and (max-width:576px) {
+            .container {
+                flex-direction: column;
+            }
+            .container-box{
+                flex-wrap: wrap;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>Box-1</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio laboriosam fugiat tenetur ullam assumenda
+                nobis? Nihil eveniet itaque veritatis minus ipsum id repellat, dolore iusto distinctio vel similique
+                deleniti fugiat nisi ab commodi modi officiis unde minima perspiciatis laudantium quasi quam. Sapiente
+                reiciendis, debitis commodi suscipit nisi eaque sunt modi quidem itaque optio nulla omnis nostrum
+                quisquam dolore iure ea blanditiis qui autem dolor doloribus assumenda natus quasi perspiciatis
+                voluptatibus? Natus ipsa odio similique praesentium voluptates in, quis veritatis id. Dolor magni
+                aliquid voluptate tempore, soluta, numquam sapiente voluptates dolorum quibusdam eaque est! Temporibus
+                explicabo, odit quos ipsam vero illum.</p>
+        </div>
+        <div class="box">
+            <h3>Box-2</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio laboriosam fugiat tenetur ullam assumenda
+                nobis? Nihil eveniet itaque veritatis minus ipsum id repellat, dolore iusto distinctio vel similique
+                deleniti fugiat nisi ab commodi modi officiis unde minima perspiciatis laudantium quasi quam. Sapiente
+                reiciendis, debitis commodi suscipit nisi eaque sunt modi quidem itaque optio nulla omnis nostrum
+                quisquam dolore iure ea blanditiis qui autem dolor doloribus assumenda natus quasi perspiciatis
+                voluptatibus? Natus ipsa odio similique praesentium voluptates in, quis veritatis id. Dolor magni
+                aliquid voluptate tempore, soluta, numquam sapiente voluptates dolorum quibusdam eaque est! Temporibus
+                explicabo, odit quos ipsam vero illum.</p>
+        </div>
+    </div>
+    <div class="container-box">
+        <div class="box-content">
+            <h2>Box-1</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-2</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-3</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-4</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-5</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-6</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-7</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-8</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-9</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-8</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-8</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-8</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-9</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-8</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-8</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-8</h2>
+        </div>
+        <div class="box-content">
+            <h2>Box-8</h2>
+        </div>
+    </div>
+</body>
+
+</html>
