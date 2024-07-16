@@ -11,6 +11,7 @@
 }
 .main{
     grid-area: main;
+    padding: 30px;
 }
 .sidebar{
     grid-area: sidebar;
@@ -20,6 +21,19 @@
 }
 .footer{
     grid-area: footer;
+}
+.nav, .sidebar, .advertise{
+    height: auto;
+    width: 150px;
+}
+.nav ul{
+    /* display: flex;
+    flex-direction: column; */
+    margin: 10px 30px 0px -30px;
+}
+.nav ul li{
+    list-style: none;
+
 }
 .container{
     display: grid;
@@ -50,8 +64,9 @@
         grid-template-areas: 
         "header header header"
         "nav nav nav"
-        "main main sidebar"
-        "advertise footer footer"
+        "main main main"
+        "sidebar sidebar advertise"
+        "footer footer footer"
         ;
     }
 }
